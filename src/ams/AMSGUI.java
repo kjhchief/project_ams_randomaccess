@@ -9,7 +9,7 @@ import java.util.Calendar;
  * 
  */
 public class AMSGUI {
-
+	// 푸시푸시 테스트세트스
 	public static void main(String[] args) throws IOException {
 
 		AccountRepository repository = new FileAccountRepository();
