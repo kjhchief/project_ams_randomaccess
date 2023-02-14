@@ -11,6 +11,7 @@ import java.util.Calendar;
 public class AMSGUI {
 	// 푸시푸시 테스트세트스
 	// 두 번째 푸시 테스트다
+	//세 번째는 터미널로 테스토다
 	public static void main(String[] args) throws IOException {
 
 		AccountRepository repository = new FileAccountRepository();

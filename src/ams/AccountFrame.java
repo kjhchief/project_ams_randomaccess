@@ -88,8 +88,6 @@ public class AccountFrame extends Frame {
 			prop.load(AccountFrame.class.getResourceAsStream("config.properties"));
 			fontName = prop.getProperty("font.family");
 			fontSize = Integer.parseInt(prop.getProperty("font.size"));
-			System.out.println(fontName);
-			System.out.println(fontSize);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

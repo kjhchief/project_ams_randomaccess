@@ -34,7 +34,6 @@ public class FileAccountRepository implements AccountRepository {
 		if (file.length() != 0) {
 			recordCount = file.readInt(); // readInt(): 스트림에서 Int값을 읽는다.
 		}
-
 	}
 
 	@Override
