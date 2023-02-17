@@ -16,13 +16,12 @@ public class AccountRepositoryTest {
 //		RandomAccessFile raf = new RandomAccessFile(path, "rw");
 		
 		// 파일에 등록 테스트
-		((FileAccountRepository)repository).saveFile(new Account("1111-2222-3333", "김재훈", 1111, 10000));
 		
+		((FileAccountRepository)repository).saveFile(new Account("1111-2222-3333", "김재훈", 1111, 10000));
 		Calendar rentDate = Calendar.getInstance();
 		//rentDate.set(2022,9, 1);
-		((FileAccountRepository)repository).saveFile(new MinusAccount("2222-2222-3333", "김대출", 1234, 10000, 3000, rentDate));
+		((FileAccountRepository)repository).saveFile(new MinusAccount("2222-2222-3333", "김대출", 1234, 10000, 1000, rentDate));
 		((FileAccountRepository)repository).saveFile(new Account("3333-2222-3333", "김재훈", 5555, 10000));
-		
 		int count = repository.getCount();
 		System.out.println(count + "개의 계좌가 등록되었다..");
 		
