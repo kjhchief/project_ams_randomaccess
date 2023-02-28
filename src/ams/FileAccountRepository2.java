@@ -74,6 +74,36 @@ public class FileAccountRepository2 implements AccountRepository {
 		
 		
 	}
+
+	@Override
+	public List<Account> getAccounts() throws IOException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Account findByNumber(String number) throws IOException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Account> findByName(String name) throws IOException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean removeAccount(String number) throws IOException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void close() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 
